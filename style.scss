@@ -1,11 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffb991;
   background-image: linear-gradient(62deg, #ffb991 0%, #ffe39b 100%);
   height: 100vh;
   width: 100vw;
   margin: 0px;
   padding: 0px;
+  direction: rtl;
+  .main {
+    max-width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    .right {
+      .name {
+        font-family: "Rubik", sans-serif;
+        font-size: 50px;
+        margin: 0px;
+      }
+      .qoute {
+        font-family: "Guttman Yad-Brush", cursive;
+        font-weight: 500;
+        max-width: 35vw;
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 15px;
+        line-height: 160%;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+    .image {
+      height: 60vh;
+    }
+  }
+  .songs {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
 }
